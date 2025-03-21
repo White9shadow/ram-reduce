@@ -1,0 +1,216 @@
+#!/system/bin/sh
+# Ram Reduce
+# Author: revWhiteShadow@tg (White9Shadow@Github)
+# Build Date: 06-04-2024
+# Last Mod : 21-03-2025
+# telegram channel : @godTspeed and @godspeedmode
+# site : godTspeed.xyz | magiskflash.com | magiskmodule.github.io
+
+BRED='\033[0;41m'
+RED='\e[01;31m'
+N='\e[0m'
+BBLUE='\033[0;44m'
+BGREEN='\033[0;42m'
+BVIOLET='\033[0;45m'
+
+echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+echo -e "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+echo -e "⠀⠀  ⠀⠀⢰⡟⠛⠛⠛⠛⢻⡆⠀⠀⠀⠀⠀⠀"
+echo -e "⠀⣤⣤⣤⣤⣼⣧⣤⣤⣤⣤⣼⣧⣤⣤⣤⣤⠀⠀"
+echo -e "⠀⠛⣛⣛⣛⣛⣛⣛⣛⣛⣛⣛⣛⣛⣛⠛⠀⠀"
+echo -e "⠀⠀⢻⣿⣿⢹⣿⣿⡏⢹⣿⣿⡏⣿⣿⡟⠀⠀⠀"
+echo -e "⠀⠀⢸⣿⣿⠘⣿⣿⡇⢸⣿⣿⠃⣿⣿⡇⠀⠀⠀"
+echo -e "⠀⠀⠸⣿⣿⠀⣿⣿⡇⢸⣿⣿⠀⣿⣿⠇⠀"
+echo -e "⠀⠀⠀⣿⣿⠀⣿⣿⡇⢸⣿⣿⠀⣿⣿⠀⠀"
+echo -e "⠀⠀⠀⣿⣿⠀⢿⣿⡇⢸⣿⡿⠀⣿⣿⠀⠀⠀"
+echo -e "⠀⠀⠀⢸⣿⡆⢸⣿⡇⢸⣿⡇⢰⣿⡇⠀⠀⠀"
+echo -e "⠀⠀⠀⢸⣿⡇⢸⣿⡇⢸⣿⡇⢸⣿⡇⠀"
+echo -e "⠀⠀⠀⠈⣿⣷⣾⣿⣷⣾⣿⣷⣾⣿⠁⠀⠀⠀⠀"
+echo -e "⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀"
+echo -e "${BRED}"
+echo -e "┏━━━┓┏━━━┓┏━┓┏━┓"
+echo -e "┃┏━┓┃┃┏━┓┃┃┃┗┛┃┃"
+echo -e "┃┗━┛┃┃┃╋┃┃┃┏┓┏┓┃"
+echo -e "┃┏┓┏┛┃┗━┛┃┃┃┃┃┃┃"
+echo -e "┃┃┃┗┳┫┏━┓┣┫┃┃┃┃┃"
+echo -e "┗┛┗━┻┻┛╋┗┻┻┛┗┛┗┛${N}"
+sleep 2
+echo -e "${BBLUE}"
+echo -e "┏━━━┳━━━┳━━━┳┓╋┏┳━━━┳━━━┓"
+echo -e "┃┏━┓┃┏━━┻┓┏┓┃┃╋┃┃┏━┓┃┏━━┛"
+echo -e "┃┗━┛┃┗━━┓┃┃┃┃┃╋┃┃┃╋┗┫┗━━┓"
+echo -e "┃┏┓┏┫┏━━┛┃┃┃┃┃╋┃┃┃╋┏┫┏━━┛"
+echo -e "┃┃┃┗┫┗━━┳┛┗┛┃┗━┛┃┗━┛┃┗━━┓"
+echo -e "┗┛┗━┻━━━┻━━━┻━━━┻━━━┻━━━┛${N}"
+sleep 5
+
+clear
+
+menu_case() {
+    clear
+    BRED='\033[0;41m'
+    RED='\e[01;31m'
+    N='\e[0m'
+    BBLOOD='\033[0;44m'
+    BGREEN='\033[0;42m'
+    GREEN='\e[01;32m'
+    PINK='\e[01;35m'
+    YELLOW='\e[01;33m'
+    echo -e "${RED}⠀⠀⠀⠀⠀⠀"
+    echo -e "                ██████╗░  ██████╗░"
+    echo -e "                ██╔══██╗  ██╔══██╗"
+    echo -e "                ██████╔╝  ██████╔╝"
+    echo -e "                ██╔══██╗  ██╔══██╗"
+    echo -e "                ██║░░██║  ██║░░██║"
+    echo -e "                ╚═╝░░╚═╝  ╚═╝░░╚═╝${N}"
+    echo -e "${GREEN}⦿Developed by ${RED}@revWhiteShadow | support Channel ${YELLOW}@godTspeed and ${PINK}@godspeedmode, visit our ${GREEN}website - www.godTspeed.xyz${N}⠀⠀"
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+    echo "   〘⦿〙${BRED}NAME: RAM REDUCE ${N}"
+    echo -e  ""
+    echo "   〘⦿〙${BRED}by @revWhiteShadow ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}DEVICE : $(getprop ro.product.model)  ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}BRAND : $(getprop ro.product.system.brand)  ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}MODEL : $(getprop ro.build.product)  ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}ARCH : $(getprop ro.product.cpu.abi)  ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}KERNEL : $(uname -r)  ${N}"
+    echo -e  ""
+    echo -e  "   〘⦿〙${BRED}PROCESSOR : $(getprop ro.product.board)  ${N}"
+    echo -e ""
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+    echo -e "  『${RED}Ram Reduce  ${GREEN} is a Magisk module designed to enhance${PINK} gaming experiences by providing specific ${YELLOW}Ram tweaks for all games. Users can choose the ram tweak they want before playing a game to ${RED}optimize their gaming experience. 』${N} "
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+
+    # Main script functions
+    GD3() {
+        GD_FREQ="20000000"  # Replace with your desired frequency in Hertz
+        desired_governor="performance"  # Set the desired governor
+
+        for core in /sys/devices/system/cpu/cpu*; do
+            echo "$desired_governor" > "$core/cpufreq/scaling_governor"
+            echo "$GD_FREQ" > "$core/cpufreq/scaling_min_freq"
+            echo "$GD_FREQ" > "$core/cpufreq/scaling_max_freq"
+        done
+        sleep 2
+    }
+
+    rr1() {
+        # Your rr1 function content
+    }
+
+    rr2() {
+        # Your rr2 function content
+    }
+
+    rr3() {
+        # Your rr3 function content
+    }
+
+    rr4() {
+        # Your rr4 function content
+    }
+
+    echo -e  ""
+    echo -e  "『${N} ${N}${BBLUE} Select Any Number before Game Name:${N} 』"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘 1 〙Basic Ram Cleane ${N} "
+    echo -e  ""
+    echo -e  "${N} ${BBLUE} 〘 2 〙Aggressive Ram Cleane  "
+    echo -e  ""
+    echo -e  " ${BRED} 〘 3 〙Extreme Ram Cleane${N}"
+    echo -e  ""
+    echo -e " ${BVIOLET} 〘 4 〙 Reset Tweaks${N}"
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+    echo -e  ""
+    echo -e  " ${BRED} 〘  〙READ THIS ${N}"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘  〙by  @revWhiteShadow${N}"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘 96 〙Website${N}"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘 97 〙Donate${N}"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘 98 〙Remove Ads 1$/Update${N}"
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+    echo -e  " ${BGREEN} 〘 99 〙SUPPORT WITHOUT MONEY${N}"
+    echo -e " ${RED}This will redirect ${GREEN}you to a link, and ${PINK}your default browser${RED} will open 100 tabs!${N}"
+    echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
+    echo -e  ""
+    echo -e  " ${BGREEN} 〘 100 〙Join Telegram- ${BGREEN} @godTpeed & @godspeedmode${N}"
+    echo -e  ""
+    echo -e  -n " ${BRED} 〘 EXIT 〙Select:${N}"; read -r option
+    case $option in
+        "1")
+            rr1 >/dev/null 2>&1;
+            sleep 3
+            sleep 3
+            clear
+            menu_case
+            ;;
+        "2")
+            rr2 >/dev/null 2>&1;
+            sleep 3
+            clear
+            menu_case
+            ;;
+        "3")
+            rr3 >/dev/null 2>&1;
+            sleep 3
+            clear
+            menu_case
+            ;;
+        "4")
+            rr4 >/dev/null 2>&1 
+            sleep 3
+            clear
+            menu_case
+            ;;
+        "96")
+            am start -a android.intent.action.VIEW -d https://godtspeed.xyz
+            clear
+            menu_case
+            ;;
+        "97")
+            am start -a android.intent.action.VIEW -d https://t.me/revWSinfo/29
+            clear
+            menu_case
+            ;;
+        "98")
+            am start -a android.intent.action.VIEW -d https://t.me/revWSinfo/24?single
+            clear
+            menu_case
+            ;;
+        "99")
+            GD3 >/dev/null 2>&1
+            tn () {
+                su -lp 2000 -c "cmd notification post -S bigtext -t 'GAME DOMAIN BY @revWhiteShadow' 'tag' '🕹️Thanks For your support, dont forgot to Close browser tabs.try to do this process 2/3 times in a day '" >/dev/null 2>&1
+            }
+            sleep 3 
+            tn
+            sleep 3
+            clear
+            menu_case
+            ;;
+        "100")
+            am start -a android.intent.action.VIEW -d https://t.me/addlist/g2eR29-lI4M1ZmVl
+            clear
+            menu_case
+            ;;
+        "EXIT")
+            echo -e  "SEE YOU SOON"
+            exit 1
+            ;;
+        *)
+            echo -e  "ARE YOU BLIND NIQQA?"
+            sleep 5
+            menu_case
+            ;;
+    esac
+}
+
+clear
+menu_case
